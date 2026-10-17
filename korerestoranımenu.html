@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>YEMEK MENÜSÜ</title>
+  <style>
+    /* Genel Stil */
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f8f9fa;
+      color:#333;
+    }
+
+    header {
+      text-align: center;
+      padding: 20px;
+      background: fuchsia;
+      color:white;
+      font-size: 1.5rem;
+    }
+
+    main {
+      max-width: 800px;
+      margin: 20px auto;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 20px;
+    }
+
+    .menu section {
+      background: white;
+      padding: 15px;
+      border-radius: 8px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+
+    .menu-section h2{
+      text-align:center;
+      font-size: 1.2rem;
+      margin-bottom: 10px;
+      color: mediumspringgreen;
+    }
+
+    .menu-item {
+      padding: 10px 0;
+      border-bottom: 1px solid #e9ecef;
+    }
+
+    .menu-item:last-child {
+      border-bottom: none;
+    }
+
+    .menu-item span {
+      float: right;
+      font-weight: bold;
+      color: #495057;
+    }
+
+    footer {
+      text-align: center;
+      padding: 10px;
+      background: chocolate;
+      color:white;
+      font-size: 0.9rem;
+    }
+
+    footer a {
+      color:#f8f9fa;
+      text-decoration: none;
+    }
+
+    footer a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+<header>
+  <h1>MY FAVOURITE KOREA RESTAURANT</h1>
+</header>
+<main>
+  <div class="menu-section">
+    <h2>ERİŞTELER</h2>
+    <div class="menu-item">Ramen<span>280₺</span></div>
+    <div class="menu-item">Rabokki <span>330₺</span></div>
+    <div class="menu-item">Bibinguksu<span>300₺</span></div>
+  </div>
+
+  <div class="menu-section">
+    <h2>PİRİNÇLİLER</h2>
+    <div class="menu-item">Gimbap <span>300₺</span></div>
+    <div class="menu-item">Bibimbap<span>320₺</span></div>
+    <div class="menu-item">Dakgalbi<span>390₺</span></div>
+  </div>
+
+  <div class="menu-section">
+    <h2>SICAK İÇECEKLER</h2>
+    <div class="menu-item">Kore Çayı <span>200₺</span></div>
+    <div class="menu-item">Ginseng Çayı <span>250₺</span></div>
+    <div class="menu-item">Nescafe <span>90₺</span></div>
+  </div>
+
+  <div class="menu-section">
+    <h2>SOĞUK İÇECEKLER</h2>
+    <div class="menu-item">Ice Tea <span>80₺</span></div>
+    <div class="menu-item">Pepsi <span>80₺</span></div>
+    <div class="menu-item">Yedigün<span>80₺</span></div>
+  </div>
+</main>
+<footer>
+  HAZIRLAYAN: <a href="#">ZEYNEP MELİKE ERYÜREK</a>
+  </footer>
+</body>
+</html>
